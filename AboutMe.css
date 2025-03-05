@@ -1,0 +1,98 @@
+*{ /* all bage */ 
+    padding: 0;
+    margin: 0;
+       box-sizing: border-box; /* حجم البو */
+       list-style: none;
+       text-decoration: none;
+       font-family: 'Comic Sans MS', 'sans-serif'; /* size type */
+    
+    }
+    
+    body {
+    background-color:#0C0C0C ; 
+    }
+
+    .All-box {
+        background-color: #131313;
+        margin-top: 250px;
+        margin-bottom: 10px;
+        display: flex;
+        padding: 80px 60px;
+        border-radius: 70px; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 15px rgba(48, 5, 5, 0.5);
+       width: 100%;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    
+      }
+      
+      .All-box:hover {
+        transform: scale(1.05) translateY(-5px);
+        box-shadow: 0 8px 30px rgba(48, 5, 5, 0.8);
+      }
+      
+
+header{ /* الايطار العلوي بالكامل */
+  display: block;
+    align-items: center;
+  justify-content: space-between;
+  padding: 15px; /* ايطار الكلمات العلية  */
+  }
+
+.navbar { /* موقع الكلمات الي فوق وين تكون */
+    margin-left: 737px;
+    margin-right: 700px;
+    margin-top: -50px;
+      }
+    
+    .navbar ul{ /* موقع الكلمات و عرضها */
+    display: flex ;
+    align-items: center;
+    gap: 30px; /* بعد الكلمات */
+    }
+    
+    .navbar ul li a { /* لون الكلمات  */
+    color: #fff;
+    transition: .4s; /* التنقل بين القيم الجديد والقديمة */
+    }
+    
+    .navbar ul li a:hover{ /* تاثير تحديد على الكلمات بالكامل  */
+    color: rgb(0, 255, 115); /*اختصار الى الالوان التالية red ,  green , blue */
+    text-decoration: underline; /* اذا حددت على الكلمة ايش يجيك حطيت خط */
+    }
+    
+    .logo{
+        font-size: 35px;
+        font-weight: bold;
+        color: yellowgreen;
+        margin-top: 20px;
+        margin-left: 15px;
+        }
+
+.All-box h1 {
+    color: yellowgreen;
+display: flex;
+    margin-top: -20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-family: 'Comic Sans MS', 'sans-serif';
+}
+
+.All-box p {
+    color: #fff;
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+  }
+
+
+    
+  

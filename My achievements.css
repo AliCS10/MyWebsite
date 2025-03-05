@@ -1,0 +1,152 @@
+
+*{ /* all bage */ 
+    padding: 0;
+    margin: 0;
+       box-sizing: border-box; /* حجم البو */
+       list-style: none;
+       text-decoration: none;
+       font-family: 'Comic Sans MS', 'sans-serif'; /* size type */
+    
+    }
+    
+    body {
+    background-color:#0C0C0C ; 
+    }
+    
+header{ /* الايطار العلوي بالكامل */
+    display: block;
+      align-items: center;
+    justify-content: space-between;
+    padding: 15px; /* ايطار الكلمات العلية  */
+    }
+  
+  .navbar { /* موقع الكلمات الي فوق وين تكون */
+      margin-left: 737px;
+      margin-right: 700px;
+      margin-top: -50px;
+        }
+      
+      .navbar ul{ /* موقع الكلمات و عرضها */
+      display: flex ;
+      align-items: center;
+      gap: 30px; /* بعد الكلمات */
+      }
+      
+      .navbar ul li a { /* لون الكلمات  */
+      color: #fff;
+      transition: .4s; /* التنقل بين القيم الجديد والقديمة */
+      }
+      
+      .navbar ul li a:hover{ /* تاثير تحديد على الكلمات بالكامل  */
+      color: rgb(0, 255, 115); /*اختصار الى الالوان التالية red ,  green , blue */
+      text-decoration: underline; /* اذا حددت على الكلمة ايش يجيك حطيت خط */
+      }
+      
+      .logo{
+          font-size: 35px;
+          font-weight: bold;
+          color: yellowgreen;
+          margin-top: 20px;
+          margin-left: 15px;
+          }
+         .myAchievements {
+          
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 80px 150px;
+                padding: 100px 90px;
+                margin-right: 300px;
+                margin-top: -10px;
+   margin-left: 100px;
+   transition: transform 0.3s ease
+              }
+
+      .myAchievements .box{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            width: 350px;
+            height: 300px;
+            background: #131313;
+            border-radius: 65px;
+            box-shadow: 0 35px 80px rgba(0, 0, 0, 15);
+            transition: 0.5s;
+            margin-top: 199px;
+      }
+
+      .myAchievements :hover {
+        transform: scale(1.05) translateY(-5px);
+     
+      }
+      
+
+      .myAchievements .box .imageBox {
+        position: absolute;
+        top: -2px;
+        width: 350px;
+        height: 300px;
+        background: var(--QuinaryLavender);
+        border-radius: 65px;
+        overflow: hidden;
+        transition: 0.5s;
+        display: block; 
+      }
+
+      /* صورة باضيفها بعدين
+      .myAchievements .box .imageBox-1 {
+        position: absolute;
+        top: 6%;
+     width: 345px;
+     height: 250px;
+        background: var(--QuinaryLavender);
+        border-radius: 65px;
+        overflow: hidden;
+        transition: 0.5s;
+        display: block; 
+      }
+      */
+
+      /* تكملة الصورة
+      .myAchievements .box .imageBox-1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain; 
+        display: block;
+      }
+      */
+
+      .myAchievements .box .imageBox img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain; 
+        display: block;
+      }
+      
+      .myAchievements .box .Name{
+        position: absolute;
+        margin-top: 245px;
+        width: 100%;
+ font-style: italic;
+        padding: 0.30;
+        overflow: hidden;
+        text-align: center;
+        transition: 0.5s;
+
+      }
+
+      .myAchievements .box .Name h2{
+margin-top: 10px;
+color: #7e3a3a;
+font-family: 'Comic Sans MS', 'sans-serif';
+      }
+      .myAchievements .box .Name p{
+        margin-top: -10px;
+        color: #7e3a3a;
+font-family: 'Comic Sans MS', 'sans-serif';
+;
+              }
+      

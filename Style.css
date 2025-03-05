@@ -1,50 +1,53 @@
-*{
+*{ /* all bage */ 
 padding: 0;
 margin: 0;
-   box-sizing: border-box;
+   box-sizing: border-box; /* حجم البو */
    list-style: none;
    text-decoration: none;
-   font-family: 'Comic Sans MS', sans-serif;
+   font-family: 'Comic Sans MS', 'sans-serif'; /* size type */
 
+}
+meta {
+  display: none;
 }
 
 body {
-background-color:#000 ;
+background-color:#0C0C0C ; 
 color: #fff ;
 }
 
-header{
-  /* box-shadow: 0 0 10px white; */
+header{ /* الايطار العلوي بالكامل */
   display: flex;
 align-items: center;
 justify-content: space-between;
-padding: 20px;
+padding: 20px; /* ايطار الكلمات العلية  */
 }
 
 .logo{
 font-size: 35px;
 font-weight: bold;
-color: #fff;
+color: yellowgreen;
 }
 
-.navbar {
-margin-left: 480px;
+.navbar { /* موقع الكلمات الي فوق وين تكون */
+margin-left: 100px;
+margin-right: 100px;
   }
 
-.navbar ul{
+.navbar ul{ /* موقع الكلمات و عرضها */
 display: flex ;
 align-items: center;
-gap: 30px;
+gap: 30px; /* بعد الكلمات */
 }
 
-.navbar ul li a {
+.navbar ul li a { /* لون الكلمات  */
 color: #fff;
-transition: .4s;
+transition: .4s; /* التنقل بين القيم الجديد والقديمة */
 }
 
-.navbar ul li a:hover{
-color: rgb(0, 255, 115);
-text-decoration: underline;
+.navbar ul li a:hover{ /* تاثير تحديد على الكلمات بالكامل  */
+color: rgb(0, 255, 115); /*اختصار الى الالوان التالية red ,  green , blue */
+text-decoration: underline; /* اذا حددت على الكلمة ايش يجيك حطيت خط */
 }
 
 .bth {
@@ -54,12 +57,13 @@ background-color: yellowgreen;
 color: #000;
 font-size: 18px;
 font-weight: bold;
-border-radius: 6px;
-padding: 5px;
+border-radius: 6px; /* تخلي الزواية منحنية */
+padding: 5px; /* حجم الايطار وتقليله */
 cursor: pointer;
-box-shadow: 0 0 10px wheat;
+box-shadow: 0 0 10px wheat; /* الضوء الي يطلع */
 transform: .4s;
 }
+
 
 .bth:hover {
 scale: 1.1;
@@ -70,8 +74,8 @@ box-shadow: 0 25px 15px yellowgreen;
   width: 100%;
   height: 72vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center; /*  موقع العناصر عمودي*/
+  justify-content: center; /*  موقع العناصر افقي*/
 padding: 10px;
 }
 
@@ -93,9 +97,22 @@ color: #fff;
 .hero-content h2{
 font-size: 40px;
 font-weight: bold;
-color: yellowgreen;
+color: rgb(20, 143, 119);
 
 }
+.AboutMe h3{
+color: #7e3a3a;
+font-family: 'Comic Sans MS', 'sans-serif';
+font-size: 25px;
+}
+
+.AboutMe p{
+  color: #7e3a3a;
+  font-family: 'Comic Sans MS', 'sans-serif';
+  font-size: 15px;
+  }
+  
+
 .social-me{
   margin-top: 30px;
   display: flex;
@@ -169,8 +186,9 @@ margin-right: 50px;
 
 }
 .image img{
-width: 330px;
-height: 320px;
-  border-radius: 50%;
-  box-shadow: 0 22px 30px white;
+width: 400px;
+height: 390px;
+  border-radius: 15%;
+margin-left: 250px; /* الصورة تنزاح الى اليمين شوي */
 }
+
